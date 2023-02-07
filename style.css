@@ -2,3 +2,27 @@ head { font-family: Arial; }
 body { font-family: Arial; }
 
 h1 {text-align: center;}
+
+/* Task Abstraction Styling with Flexbox */
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+.Right {
+    width: 50%;
+    text-align: center;
+}
+
+.Left {
+    width: 50%;
+}
+
+
+
+
+h3 {text-align: center;}
+ul {text-align: center; list-style-position: inside; } 
+
+
