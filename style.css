@@ -11,12 +11,13 @@ h1 {text-align: center;}
 }
   
 .Right {
-    width: 50%;
+    width: 40%;
     text-align: center;
 }
 
 .Left {
-    width: 50%;
+    width: 60%;
+
 }
 
 .center {
