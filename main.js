@@ -1,5 +1,5 @@
 
-const divElem = document.getElementById("myDiv");
+const divElem = document.getElementById("myBtn");
 
 divElem.addEventListener('click', buttonClicked);
 
