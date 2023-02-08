@@ -62,15 +62,15 @@
                         Channels
                         <ul>
                             <li> Color (Hue). Color here maps to a diverging numerical attribute: the LWTS- which is negative when below the average LWTS and positive when above the average. The orange hue represents anything above 0, and purple represents anything below 0. The highly contrasting colors here are a good choice, as they clearly distinguish between the two sides of 0, and the clear white leave no confusion as to the middle ground. </li>
-                            <li> Color (Saturation). Color here maps to a diverging numerical attribute: the LWTS- which is negative when below the average LWTS and positive when above the average. The saturation of the color corresponds to HOW negative or HOW positive the LWTS score in </li>
-                            <li> Position (Horizontal). </li>
-                            <li> Position (Vertical). </li>
+                            <li> Color (Saturation). Color here maps to a diverging numerical attribute: the LWTS- which is negative when below the average LWTS and positive when above the average. The saturation of the color corresponds to HOW negative or HOW positive the LWTS score is. This is a good choice because intuitively more concentrated color would correspond to a more extreme number.</li>
+                            <li> Position (Horizontal). Horizontal Position here corresponds to a sequential numeric attribute: the balls velocity. This is a good mapping choice as numerical values like this are easy to locate on an axis. </li>
+                            <li> Position (Vertical). Vertical Position here corresponds to a diverging numeric attribute: the ball's launch angle from the horizontal (positive=above the horizontal, negative=below the horizontal). This is, similarly to the horizontal positioning, a good mapping choice as numerical values like this are easily located on an axis. </li>
                         </ul>
                     </li>
                     <li>
                         Colormap
                         <ul>
-                            <li> Divergent. </li>
+                            <li> The colormap in this visualization is divergent, with two opposing colors at the extremes which converge to white when the LWTS is 0. As noted above, these colors map to a diverging numerical attribute: the LWTS. This color map is a good fit for this variable since it aligns with the also diverging numerical values of the scoring system. </li>
                         </ul>
                     </li>
                 </ul>
@@ -85,19 +85,21 @@
                     <li>
                         Marks
                         <ul>
-                            <li> example mark here </li>
+                            <li> Lines </li>
                         </ul>
                     </li>
                     <li>
                         Channels
                         <ul>
-                            <li> example channel here </li>
+                            <li> Color (Hue). Color here maps to a categorical attribute: the worry level of respondants. The separate colors here are important for distinguishing between distinct groups, since if all lines were one color, it may be unclear which lines are which, particularly when the cross over each other.</li>
+                            <li> Position (Horizontal). Horizontal Position here corresponds to a sequential ordinal attribute: time, specifically by date. This is a good mapping choice as ordered numerical values like this are easy to follow down an axis. </li>
+                            <li> Position (Vertical). Vertical Position here corresponds to a diverging numeric attribute: the percentage of respondants who selected each worry level. This is, similarly to the horizontal positioning, sa good mapping choice as numerical values like this are easily located on an axis. </li>
                         </ul>
                     </li>
                     <li>
                         Colormap
                         <ul>
-                            <li> Attribute Here</li>
+                            <li> The colormap of the visualization on the left is categorical. This is a reasonably fitting color map for this visualization as the worry levels can be seen as very distinct groups. One could argue, though, that a sequential colormap may be more fitting in this case, which uses a progression of color from the least worried group to the most worried group.</li>
                         </ul>
                     </li>
                 </ul>
